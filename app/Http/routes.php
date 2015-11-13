@@ -45,7 +45,3 @@ Route::group(['prefix'=>'api','before' => 'oauth'], function(){
 	Route::delete("/videos/{id}", "VideoController@destroy");
 });
 
-
-
-
-
